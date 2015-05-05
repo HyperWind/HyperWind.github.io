@@ -34,7 +34,6 @@
 
 	for (var n = 0; n < buttons.length; n++) {
 		
-		console.log(buttons[n]);
 		makeHover(buttons[n]);
 	
 	}
