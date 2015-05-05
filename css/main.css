@@ -132,12 +132,15 @@ a:hover {
 
 }
 
-.box > .about-myself {
+@media (min-width: 800px) {
 
-	min-width: 55%;
+	.box > .about-myself {
+
+		width: 55%;
+
+	}
 
 }
-
 
 .box > .about-myself > p > .lang {
 
