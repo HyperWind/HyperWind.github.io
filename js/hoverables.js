@@ -2,23 +2,37 @@
 
 	function makeHover(button) {
 
-		button.addEventListener("mouseenter", function() {
+		var phoneRegex = /iphone|ipod|ipad|android|blackberry|opera mini|opera mobi|skyfire|maemo|windows phone|palm|iemobile|symbian|symbianos|fennec/i;
 
-			button.getElementsByClassName(button.getAttribute('id'))[0].classList.add('active');
+		if (!phoneRegex.test(navigator.userAgent.toLowerCase())) {
 
-		});
+			button.addEventListener("mouseenter", function() {
 
-		button.addEventListener("mouseleave", function() {
+				button.getElementsByClassName(button.getAttribute('id'))[0].classList.add('active');
 
-			button.getElementsByClassName(button.getAttribute('id'))[0].classList.remove('active');
+			});
 
-		});
+			button.addEventListener("mouseleave", function() {
 
-		button.addEventListener("click", function() {
+				button.getElementsByClassName(button.getAttribute('id'))[0].classList.remove('active');
 
-			button.getElementsByClassName(button.getAttribute('id'))[0].classList.toggle('active');
+			});
 
-		});
+			button.addEventListener("click", function() {
+
+				button.getElementsByClassName(button.getAttribute('id'))[0].classList.toggle('active');
+
+			});
+		
+		} else {
+
+			element.addEventListener('touchstart', function() {
+
+				element.classList.toggle('active');
+
+			}, false);
+
+		}
 
 	}
 
