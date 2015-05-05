@@ -1,0 +1,157 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster|Open+Sans);
+
+* {
+
+	margin: 0;
+	padding: 0;
+
+}
+
+.box {
+
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;	
+	align-content: center;
+	text-align: center;
+
+}
+
+.box > div {
+
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	
+}
+
+.box {
+
+	font-family: 'Open Sans', Arial;
+
+}
+
+a {
+
+	color: rgba(0, 0, 0, 0.8);
+
+}
+
+a:visited {
+	
+	text-decoration: none;
+
+}
+
+a:hover {
+
+	text-decoration: none;
+
+}
+
+.box > .header {
+
+	padding-top: 1vh;
+
+}
+
+.box > .header > h1 {
+
+	padding-top: 0.2em;
+	font-family: 'Lobster', Arial;
+	font-weight: normal;
+	font-size: 2.5em;
+
+}
+
+.box > .header > .avatar {
+
+	overflow: hidden;
+	border-radius: 100%;
+	box-shadow:
+		0 0 0 3px #fff,
+		0 0 0 6px rgba(0, 0, 0, 0.4);
+	width: 15em;
+	height: 15em;
+	margin: 0 auto;
+
+}
+
+.box > .header > .avatar > img {
+
+	width: 100%;
+	height: 100%;
+
+}
+
+.box > .contacts > .button > .reveal {
+
+	border-left: 1px solid rgba(0, 0, 0, 0.4);
+	border-right: 1px solid rgba(0, 0, 0, 0.4);
+	padding-left: 1em;
+	padding-right: 1em;
+	transition: 
+		max-height 1s,
+	    	visibility 1s,
+	    	margin 1s,
+    		opacity 0.5s;
+	font-size: 1.2em;
+
+}
+
+.box > .contacts > .button > .reveal:not(.active) {
+
+	max-height: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	opacity: 0;
+	visibility: hidden;
+
+}
+
+.box > .contacts > .button > .active {
+
+	max-height: 10em;
+	opacity: 1;
+	visibility: visible;
+
+
+}
+
+.box > .contacts > .button > span {
+
+	font-weight: bold;
+	font-size: 1.1em;
+
+}
+
+.box > .contacts > .button {
+
+	margin-top: 0.5em
+	margin-bottom: 0.5em
+
+}
+
+.box > .contacts {
+
+	padding-bottom: 3vh;
+
+}
+
+.box > .about-myself {
+
+	width: 55%;
+
+}
+
+
+.box > .about-myself > p > .lang {
+
+	font-size: 1.3em;
+	font-family: 'Lobster', Arial;
+	letter-spacing: 1px;
+
+}
+
