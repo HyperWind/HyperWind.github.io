@@ -17,12 +17,6 @@
 				button.getElementsByClassName(button.getAttribute('id'))[0].classList.remove('active');
 
 			});
-
-			button.addEventListener("click", function() {
-
-				button.getElementsByClassName(button.getAttribute('id'))[0].classList.toggle('active');
-
-			});
 		
 		} else {
 
