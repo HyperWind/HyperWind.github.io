@@ -1,11 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster|Open+Sans);
 
-/** {
+* {
 
 	margin: 0;
 	padding: 0;
 
-}*/
+}
 
 .box {
 
@@ -93,9 +93,9 @@ a:hover {
 	padding-right: 1em;
 	transition: 
 		max-height 1s,
-	    	visibility 1s,
-	    	margin 1s,
-    		opacity 0.5s;
+		visibility 1s,
+	    margin 1s,
+    	opacity 0.5s;
 	font-size: 1.2em;
 
 }
