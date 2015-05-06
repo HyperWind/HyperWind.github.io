@@ -1,14 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster|Open+Sans);
 
-.box {
+.center {
 
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;	
 	align-content: center;
 	text-align: center;
+	flex-wrap: no-wrap;
 	font-family: 'Open Sans', Arial;
+	min-height: 100vh;
 
 }
 
@@ -104,7 +105,6 @@ a:hover {
 	opacity: 1;
 	visibility: visible;
 
-
 }
 
 .box > .contacts > .button > span {
@@ -136,12 +136,12 @@ a:hover {
 
 }
 
-.box > .about-myself > p {
+.box > .about-myself {
 
-	margin: 0;
+	text-align: center;
+	margin: 0 auto;
 
 }
-
 
 .box > .about-myself > p > .lang {
 
