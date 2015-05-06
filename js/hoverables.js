@@ -20,6 +20,8 @@
 		
 		} else {
 
+			alert("HIT!");
+
 			element.addEventListener('touchstart', function() {
 
 				element.classList.toggle('active');
