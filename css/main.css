@@ -1,12 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster|Open+Sans);
 
-* {
-
-	margin: 0;
-	padding: 0;
-
-}
-
 .box {
 
 	min-height: 100vh;
@@ -62,6 +55,7 @@ a:hover {
 	font-family: 'Lobster', Arial;
 	font-weight: normal;
 	font-size: 2.5em;
+	margin: 0;
 
 }
 
@@ -132,6 +126,12 @@ a:hover {
 
 }
 
+.box > .contacts > p {
+
+	margin: 0;
+
+}
+
 @media (min-width: 800px) {
 
 	.box > .about-myself {
@@ -141,6 +141,13 @@ a:hover {
 	}
 
 }
+
+.box > .about-myself > p {
+
+	margin: 0;
+
+}
+
 
 .box > .about-myself > p > .lang {
 
