@@ -13,6 +13,12 @@
 
 }
 
+.box {
+
+	margin: 1em;
+
+}
+
 .box > div {
 
 	margin-top: 0.5em;
