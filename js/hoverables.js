@@ -20,7 +20,7 @@
 		
 		} else {
 			
-			element.addEventListener('touchstart', function() {
+			button.addEventListener('touchstart', function() {
 
 				button.getElementsByClassName(button.getAttribute('id'))[0].classList.toggle('active');
 
