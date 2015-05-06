@@ -2,13 +2,13 @@
 
 .box {
 
-	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;	
 	align-content: center;
 	text-align: center;
+	font-family: 'Open Sans', Arial;
 
 }
 
@@ -17,12 +17,6 @@
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 	
-}
-
-.box {
-
-	font-family: 'Open Sans', Arial;
-
 }
 
 a {
