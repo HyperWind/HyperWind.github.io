@@ -22,7 +22,7 @@
 			
 			element.addEventListener('touchstart', function() {
 
-				element.classList.toggle('active');
+				button.getElementsByClassName(button.getAttribute('id'))[0].classList.toggle('active');
 
 			}, false);
 
