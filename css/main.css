@@ -65,7 +65,13 @@
 
 .box > .contacts > .button {
 
-	margin: 0.5em;
+	margin: 1.5em;
+
+}
+
+.box > .contacts > #email {
+
+	margin-top: 0.8em;
 
 }
 
