@@ -1,21 +1,21 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster|Open+Sans);
 
-.center {
+body {
 
-	display: flex;
-	justify-content: center;
-	align-items: center;	
-	align-content: center;
+	display: table-cell;
+	vertical-align: middle;
 	text-align: center;
-	flex-wrap: no-wrap;
-	font-family: 'Open Sans', Arial;
-	min-height: 100vh;
+	width: 100vw;
+	height: 100vh;
 
 }
 
 .box {
 
+	display: inline-block;
 	margin: 3em 1em 3em 1em;
+	text-align: center;
+	font-family: 'Open Sans', Arial;
 
 }
 
