@@ -64,13 +64,13 @@ body {
 
 .box > .contacts > .button {
 
-	margin: 1.5em;
+	margin: 1em;
 
 }
 
 .box > .contacts > #email {
 
-	margin-top: 0.8em;
+	margin-top: 0.5em;
 
 }
 
@@ -82,7 +82,7 @@ body {
 	    margin 1s,
     	opacity 0.5s;
 	font-size: 1.2em;
-	margin-top: 0.4em;
+	margin-top: 0.3em;
 
 }
 
@@ -130,7 +130,7 @@ body {
 
 .box > .contacts {
 
-	padding-bottom: 3vh;
+	padding-bottom: 4vh;
 
 }
 
