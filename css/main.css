@@ -1,4 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700);
+@font-face {
+	font-family: 'PT Serif';
+	src: url('PT_Serif-Web-Regular.ttf');
+}
 
 body {
 
@@ -15,7 +18,7 @@ body {
 	display: inline-block;
 	margin: 3em 1em 3em 1em;
 	text-align: center;
-	font-family: 'PT Serif', Arial;
+	font-family: 'PT Serif', serif;
 	font-size: 1.2em;
 
 }
