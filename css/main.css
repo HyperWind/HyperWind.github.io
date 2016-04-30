@@ -15,7 +15,7 @@
     
 }
 
-@media (min-width: 400px) {
+@media (max-width: 400px) {
 
   .avatar {
 
@@ -25,7 +25,7 @@
 
 }
 
-@media (max-width: 400px) {
+@media (min-width: 400px) {
 
   .avatar {
 
