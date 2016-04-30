@@ -25,17 +25,21 @@
 
 }
 
+@media (max-width: 400px) {
+
+  .avatar {
+
+    width: 400px;
+
+  }
+
+}
+
 .container > div {
 
     margin: 0 auto;
     text-align: center;
     font-family: 'Architects Daughter', Times;
-    
-}
-
-.avatar {
-
-    width: 400px;
     
 }
 
