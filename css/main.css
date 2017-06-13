@@ -1,9 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
 
-@import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
-
-@media (min-height: 600px) {
-
-    .container {
+.container {
 
 	position: fixed;
 	top: 50%;
@@ -11,40 +8,76 @@
 	left: 0;
 	right: 0;
 	
-    }
-    
 }
 
-@media (max-width: 400px) {
+body {
 
-  .avatar {
-
-    width: 100vw;
-      
-  }
+    font-family: 'Cutive Mono', Times;
+    background-color: #1a1a1a;
 
 }
 
-@media (min-width: 400px) {
+.insert {
 
-  .avatar {
-
-    width: 400px;
-
-  }
+    position: fixed;
+    top: 2vw;
+    bottom:2vw;
+    left: 2vw;
+    right: 2vw;
+    background-color: #ffffff;
+    z-index: -1;
 
 }
 
 .container > div {
-
+    
     margin: 0 auto;
     text-align: center;
-    font-family: 'Architects Daughter', Times;
     
 }
+
+.container > .social > h5 {
+
+    margin-bottom: 0.8em;
+
+}
+
+.container > .social > ul {
+
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0.5em;
+
+}
+
+.container > .social > ul > li {
+
+    margin: 4px auto 4px auto;
+
+}
+
+.container > .social > ul > li > a {
+
+    color: #1a1a1a;
+
+}
+
+.container > .social > ul > li > a:hover {
+
+    color: #000000;
+
+}
+
 
 .avatar > img {
 
     width: 100%;
     
+}
+
+.copyright {
+
+    font-size: 0.7em;
+    text-align: center;
+
 }
