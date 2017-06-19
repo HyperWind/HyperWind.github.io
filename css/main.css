@@ -84,7 +84,7 @@ body {
 
 .container > .social > ul > li {
 
-    margin: 4px auto 4px auto;
+    margin: 6px auto 6px auto;
 
 }
 
@@ -100,6 +100,11 @@ body {
 
 }
 
+.container > .social > ul > li > .tag {
+
+    color: #000000; 
+
+}
 
 .avatar > img {
 
