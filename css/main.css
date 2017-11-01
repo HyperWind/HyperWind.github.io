@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
 
 @media (max-width: 600px) {
 
@@ -6,12 +6,12 @@
 
     	position: fixed;
     	top: 50%;
-        left: 0;
-        right: 0;
+      left: 0;
+      right: 0;
 	    transform: translateY(-50%);
-        padding-top: 3vh;
-        padding-bottom: 3vh;
-        background: #FFFFFF;
+      padding-top: 3vh;
+      padding-bottom: 3vh;
+      background: #FFFFFF;
 	
     }
 
@@ -23,10 +23,10 @@
 
     	position: fixed;
     	top: 50%;
-        left: 50%;
+      left: 50%;
 	    transform: translate(-50%, -50%);
-        padding: 3vw 6vw;
-        background: #FFFFFF;
+      padding: 3vw 6vw;
+      background: #FFFFFF;
 	
     }
 
@@ -34,8 +34,9 @@
 
 body {
 
-    font-family: 'Cutive Mono', Times;
-    background-color: #FFFFFF;
+    font-family: "Merriweather", Times;
+    background-color: #fff;
+    color: #1e1e1e;
 
 }
 
@@ -46,7 +47,8 @@ body {
     bottom:1vw;
     left: 1vw;
     right: 1vw;
-    background-image: url("../images/lightroomed-30590022.jpg");
+    background-color: #FFF;
+    border: 1px solid #777777;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
@@ -60,17 +62,21 @@ body {
 
 }
 
-.container > .name > h1 {
+.container > .name > img {
 
-    margin-top: 0;
-    font-size: 2em;
-    white-space: nowrap;
+    width: 175px;
+
+}
+
+.container > .name > h4 {
+
+    margin-bottom: 2em;
 
 }
 
 .container > .social > h5 {
 
-    margin-bottom: 0.8em;
+    margin-bottom: 1.1em;
 
 }
 
@@ -79,12 +85,14 @@ body {
     list-style-type: none;
     padding: 0;
     margin-top: 0.5em;
+    margin-bottom: 2em;
 
 }
 
 .container > .social > ul > li {
 
     margin: 6px auto 6px auto;
+    font-size: 0.9em;
 
 }
 
@@ -100,21 +108,9 @@ body {
 
 }
 
-.container > .social > ul > li > .tag {
-
-    color: #000000; 
-
-}
-
-.avatar > img {
-
-    width: 100%;
-    
-}
-
 .copyright {
 
-    font-size: 0.7em;
+    font-size: 0.6em;
     text-align: center;
 
 }
